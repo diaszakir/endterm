@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public interface MoneyExchange {
+import java.util.Scanner;
+
+public interface MoneyExchange {
+    void exchangeTo(Scanner scan);
 }
